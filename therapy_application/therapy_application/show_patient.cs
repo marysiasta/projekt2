@@ -16,5 +16,27 @@ namespace therapy_application
         {
             InitializeComponent();
         }
+
+        private void button_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            add_patient newform = new add_patient();
+            newform.Show();
+        }
+
+        private void button_edit_Click(object sender, EventArgs e)
+        {
+            edit_patient newform = new edit_patient();
+            newform.Show();
+        }
+
+        private void button_choice_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

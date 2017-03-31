@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace therapy_application
 {
-    public partial class edit_patient : Form
+    public partial class show_therapy : Form
     {
-        public edit_patient()
+        public show_therapy()
         {
             InitializeComponent();
         }
 
-        private void exit_button_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void add_button_Click(object sender, EventArgs e)
+        private void button_choice_Click(object sender, EventArgs e)
         {
 
         }

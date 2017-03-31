@@ -115,6 +115,7 @@
             this.button_patient.TabIndex = 7;
             this.button_patient.Text = "PACJENT";
             this.button_patient.UseVisualStyleBackColor = false;
+            this.button_patient.Click += new System.EventHandler(this.button_patient_Click);
             // 
             // label_therapy
             // 
@@ -152,6 +153,7 @@
             this.button_therapy.TabIndex = 12;
             this.button_therapy.Text = "TERAPIA";
             this.button_therapy.UseVisualStyleBackColor = false;
+            this.button_therapy.Click += new System.EventHandler(this.button_therapy_Click);
             // 
             // label5
             // 

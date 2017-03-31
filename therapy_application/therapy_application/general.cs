@@ -21,5 +21,17 @@ namespace therapy_application
         {
 
         }
+
+        private void button_patient_Click(object sender, EventArgs e)
+        {
+            show_patient newform = new show_patient();
+            newform.Show();
+        }
+
+        private void button_therapy_Click(object sender, EventArgs e)
+        {
+            show_therapy newform = new show_therapy();
+            newform.Show();
+        }
     }
 }

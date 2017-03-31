@@ -219,6 +219,7 @@
             this.exit_button.TabIndex = 37;
             this.exit_button.Text = "Anuluj";
             this.exit_button.UseVisualStyleBackColor = true;
+            this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
             // 
             // add_button
             // 
@@ -230,6 +231,7 @@
             this.add_button.TabIndex = 36;
             this.add_button.Text = "ZAPISZ";
             this.add_button.UseVisualStyleBackColor = false;
+            this.add_button.Click += new System.EventHandler(this.add_button_Click);
             // 
             // edit_patient
             // 

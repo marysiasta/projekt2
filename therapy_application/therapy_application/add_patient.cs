@@ -24,6 +24,9 @@ namespace therapy_application
 
         }
 
-        
+        private void add_patient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -258,6 +258,7 @@
             this.Controls.Add(this.add_button);
             this.Name = "add_patient";
             this.Text = "add_patient";
+            this.Load += new System.EventHandler(this.add_patient_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
