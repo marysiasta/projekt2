@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace therapy_application
 {
-    public partial class Form1 : Form
+    public partial class logowanie : Form
     {
-        public Form1()
+        public logowanie()
         {
             InitializeComponent();
         }

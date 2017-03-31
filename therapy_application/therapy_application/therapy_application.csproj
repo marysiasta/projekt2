@@ -46,16 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="add_patient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="add_patient.Designer.cs">
+      <DependentUpon>add_patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_therapist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_therapist.Designer.cs">
+      <DependentUpon>add_therapist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit_patient.Designer.cs">
+      <DependentUpon>edit_patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="general.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="general.Designer.cs">
+      <DependentUpon>general.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logowanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logowanie.Designer.cs">
+      <DependentUpon>logowanie.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="show_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="show_patient.Designer.cs">
+      <DependentUpon>show_patient.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_patient.resx">
+      <DependentUpon>add_patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_therapist.resx">
+      <DependentUpon>add_therapist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_patient.resx">
+      <DependentUpon>edit_patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="general.resx">
+      <DependentUpon>general.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logowanie.resx">
+      <DependentUpon>logowanie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="show_patient.resx">
+      <DependentUpon>show_patient.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
