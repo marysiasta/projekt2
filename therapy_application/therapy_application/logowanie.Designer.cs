@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // logowanie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 207);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(504, 335);
+            this.Name = "logowanie";
             this.Text = "LOGOWANIE";
             this.ResumeLayout(false);
 

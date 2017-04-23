@@ -15,6 +15,7 @@ namespace therapy_application
         public general()
         {
             InitializeComponent();
+
         }
 
         private void general_Load(object sender, EventArgs e)
